@@ -1,0 +1,17 @@
+// Created by John Wang 13-09-2016
+
+Information about accessing the server:
+
+Username: cs4920
+Password: fitness
+Server: cs4920.jwang.id.au
+you can ssh and scp
+phpmyadmin is available also http://cs4920.jwang.id.au/phpmyadmin (same username and password)
+
+=======================================================
+
+Steps for accessing Django
+
+. activateDjango
+cd fitnessteaching/
+python manage.py runserver 0.0.0.0:8000

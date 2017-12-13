@@ -1,0 +1,28 @@
+// Created by Cherry Zhao 13-09-2016
+
+Information for sign up:
+	username: Cherry Zhao
+	registered email: axjllt@gmail.com
+
+========================================
+
+API key
+
+CUR7LCIwsCLTDq1UI5STCloAG7rAUuX7fTLfPvVN
+
+----------------------
+
+Usage example:
+
+https://api.data.gov/nrel/alt-fuel-stations/v1/nearest.json?api_key=CUR7LCIwsCLTDq1UI5STCloAG7rAUuX7fTLfPvVN&location=Denver+CO
+
+========================================
+
+Usage infor documentation:
+
+https://ndb.nal.usda.gov/ndb/api/doc#
+
+========================================
+
+Other information:
+	We choose 'json' as our response-type.

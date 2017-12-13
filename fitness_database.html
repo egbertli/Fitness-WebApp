@@ -1,0 +1,2277 @@
+<!DOCTYPE html>
+<html>
+<!-- SQLEditor generated report -->
+<head>
+    <title>SQLEditor Report</title>
+    
+    
+    <style>
+
+
+body {
+
+font-family:Helvetica, sans-serif;
+font-size:90%;
+
+}
+
+table.dataTable {
+
+border-collapse:collapse;
+}
+
+table.dataTable th
+{
+
+/*        background:#CCC;*/
+color:black;
+font-weight:bold;
+}
+
+table.dataTable th, table.dataTable td {
+border: 1px solid #999;
+padding:0.25em;
+}
+
+.table_comments {
+border:1px solid gray;
+padding:0.25em;
+width:20em;
+}
+
+.table_comments h3 {
+font-size:medium;
+margin-top:2px;
+margin-bottom:2px;
+}
+
+.table_comments p {
+margin-top:0.25em;
+margin-bottom:0.25em;
+
+}
+
+.fieldOptions {
+list-style:none;
+padding-left:0px;
+margin:0px;
+}
+
+.fieldOptions li {
+display:inline-block;
+background:#ddd;
+padding:3px;
+border-radius:5px;
+margin-top:2px;
+font-size:small;
+}
+
+.objectTypeBlock {
+vertical-align:middle;
+background:#ccd;
+padding:3px;
+border-radius:5px;
+
+font-size:small;
+}
+
+.objectInformation th {
+text-align:left;
+width:10em;
+}
+
+.objectInformation{
+min-width:30em;
+}
+
+hr {
+border: 0;
+height: 1px;
+background-color:#999;
+}
+    </style>
+</head>
+<body>
+
+
+
+<h1>SQLEditor Generated HTML Report: Untitled 2 </h1>
+
+<h2>Table List</h2>
+
+<ol>
+
+<li><a href="#table_user_accounts">user_accounts</a></li>
+
+
+
+<li><a href="#table_fitness_sub_categories">fitness_sub_categories</a></li>
+
+
+
+<li><a href="#table_friends_list">friends_list</a></li>
+
+
+
+<li><a href="#table_foods_by_class">foods_by_class</a></li>
+
+
+
+<li><a href="#table_recipe">recipe</a></li>
+
+
+
+<li><a href="#table_videos_by_categories">videos_by_categories</a></li>
+
+
+
+<li><a href="#table_food_detail">food_detail</a></li>
+
+
+
+<li><a href="#table_fitness_categories">fitness_categories</a></li>
+
+
+
+<li><a href="#table_food_classes">food_classes</a></li>
+
+
+
+<li><a href="#table_food_sub_classes">food_sub_classes</a></li>
+
+
+
+<li><a href="#table_fitness_equipment">fitness_equipment</a></li>
+
+
+
+<li><a href="#table_fintness_video">fintness_video</a></li>
+
+
+</ol>
+
+
+<hr>
+
+<h2>Tables</h2>
+<hr>
+<div class="TableSection">
+<a name="table_user_accounts" />
+
+<h2>user_accounts <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>user_accounts</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>user_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>username</td>
+        <td>varchar(50)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+        <li>Not Null</li>
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>varchar(50)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+        <li>Not Null</li>
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td>varchar(50)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+        <li>Not Null</li>
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>last_location_lat</td>
+        <td>double(7 , 6)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+        <li>Default Value: &#x27;0.00000&#x27;</li>
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>last_location_long</td>
+        <td>double(7 , 6)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+        <li>Default Value: &#x27;0.00000&#x27;</li>
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>user_avator_dir</td>
+        <td>varchar(50)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>age</td>
+        <td>tinyint</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+        <li>Default Value: &#x27;20&#x27;</li>
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gender</td>
+        <td>char(4)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+        <li>Default Value: &#x27;-&#x27;</li>
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>weight</td>
+        <td>double(3 , 2)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>height</td>
+        <td>double(3 , 2)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>blood_pressure</td>
+        <td>double(3 , 2)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>body_fat_percentage</td>
+        <td>double(3 , 2)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>athlete</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>heart_disease</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>smoke</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>medical_implant</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>user_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_fitness_sub_categories" />
+
+<h2>fitness_sub_categories <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>fitness_sub_categories</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>fit_sub_cat_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>fit_cat_id</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>fit_sub_cat</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>fit_cat_id 
+
+</td>
+<td><a href="#table_fitness_categories">fitness_categories</a>(cat_id 
+)
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>fk</td>
+        <td>fit_sub_cat 
+
+</td>
+<td><a href="#table_user_accounts">user_accounts</a>(user_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>fit_sub_cat_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_friends_list" />
+
+<h2>friends_list <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>friends_list</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>friend_list_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>f_user_id</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>friend_id</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>f_user_id 
+
+</td>
+<td><a href="#table_user_accounts">user_accounts</a>(user_id 
+)
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>fk</td>
+        <td>friend_id 
+
+</td>
+<td><a href="#table_user_accounts">user_accounts</a>(user_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>friend_list_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_foods_by_class" />
+
+<h2>foods_by_class <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>foods_by_class</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>food_by_class_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>f_class_id</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>foods</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>f_class_id 
+
+</td>
+<td><a href="#table_food_classes">food_classes</a>(class_id 
+)
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>fk</td>
+        <td>foods 
+
+</td>
+<td><a href="#table_food_detail">food_detail</a>(food_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>food_by_class_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_recipe" />
+
+<h2>recipe <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>recipe</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>recipe_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>recipe_name</td>
+        <td>varchar(20)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>required_food</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>recipe_description</td>
+        <td>varchar(255)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+        <li>Default Value: &#x27;please wirte your secret recipe description.&#x27;</li>
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>required_food 
+
+</td>
+<td><a href="#table_food_detail">food_detail</a>(food_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>recipe_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_videos_by_categories" />
+
+<h2>videos_by_categories <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>videos_by_categories</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>video_cate_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>category</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>video_upload_user</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>category 
+
+</td>
+<td><a href="#table_fitness_categories">fitness_categories</a>(cat_id 
+)
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>fk</td>
+        <td>video_upload_user 
+
+</td>
+<td><a href="#table_user_accounts">user_accounts</a>(user_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>video_cate_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_food_detail" />
+
+<h2>food_detail <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>food_detail</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>food_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>f_class</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>food_name</td>
+        <td>varchar(50)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>energy</td>
+        <td>double(6 , 3)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>carbohydrates</td>
+        <td>double(6 , 3)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>saturated_fat</td>
+        <td>double(6 , 3)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>unsaturated_fat</td>
+        <td>double(6 , 3)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gluten</td>
+        <td>double(6 , 3)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>f_class 
+
+</td>
+<td><a href="#table_food_classes">food_classes</a>(class_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>food_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_fitness_categories" />
+
+<h2>fitness_categories <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>fitness_categories</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>cat_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>category_name</td>
+        <td>varchar(20)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>cat_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_food_classes" />
+
+<h2>food_classes <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>food_classes</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>class_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>class_name</td>
+        <td>varchar(20)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+        <li>Not Null</li>
+
+        <li>Default Value: &#x27;-&#x27;</li>
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>class_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_food_sub_classes" />
+
+<h2>food_sub_classes <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>food_sub_classes</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>food_sub_class_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>class</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>sub_class</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>sub_class 
+
+</td>
+<td><a href="#table_food_classes">food_classes</a>(class_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>food_sub_class_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_fitness_equipment" />
+
+<h2>fitness_equipment <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>fitness_equipment</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>equipment_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>fit_cat_id</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>equipment_name</td>
+        <td>varchar(20)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>fit_cat_id 
+
+</td>
+<td><a href="#table_fitness_categories">fitness_categories</a>(cat_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>equipment_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+<div class="TableSection">
+<a name="table_fintness_video" />
+
+<h2>fintness_video <span class="objectTypeBlock">Table</span></h2>
+
+
+<table class='dataTable columns objectInformation'>
+<tr><th>Object Type</th><td>Table</td></tr>
+<tr><th>Name</th><td>fintness_video</td></tr>
+<tr><th>Schema</th><td></td></tr>
+<tr><th>Comment</th><td></td></tr>
+</table>
+
+<h3> Columns</h3>
+
+ <table class='dataTable columns'>
+    <tr>
+        <th>Column Name</th><th>Data Type</th><th>Primary Key</th><th>Options</th><th>Comment</th>
+    </tr>
+
+
+    <tr>
+        <td>video_id</td>
+        <td>int</td>
+        <td>&#10004;</td>
+        <td><ul class="fieldOptions">
+
+
+
+
+        <li>Auto Increment</li>
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>uploaded_by</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>category</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+        <li>Foreign key</li>
+
+
+
+        <li>Not Null</li>
+
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>link</td>
+        <td>varchar(200)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>varchar(20)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>description</td>
+        <td>varchar(200)</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>like_num</td>
+        <td>int</td>
+        <td></td>
+        <td><ul class="fieldOptions">
+
+
+
+
+
+
+        <li>Not Null</li>
+
+        <li>Default Value: &#x27;0&#x27;</li>
+
+
+        <li>Unsigned</li>
+
+
+
+
+        </ul>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>Foreign Keys</h3>
+ <table class='dataTable foreignkeys'>
+    <tr>
+        <th>Foreign Key Name</th><th>Source</th><th>Target</th>
+    </tr>    <tr>
+        <td>fk</td>
+        <td>uploaded_by 
+
+</td>
+<td><a href="#table_user_accounts">user_accounts</a>(user_id 
+)
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>fk</td>
+        <td>category 
+
+</td>
+<td><a href="#table_fitness_categories">fitness_categories</a>(cat_id 
+)
+        </td>
+
+    </tr>
+
+</table>
+
+<h3>Indexes</h3>
+    <table class='dataTable indexes'>
+        <tr><th>Index Name</th><th>type</th><th>Comment</th><th>columns</th></tr>
+
+
+    <tr>
+    <td>Primary Key</td>
+    <td>PK</td>
+    <td></td>
+    <td>video_id</td>
+    </tr>
+
+
+
+</table>
+
+
+
+</div>
+<hr>
+
+
+
+
+
+</body>
+
+</html>
